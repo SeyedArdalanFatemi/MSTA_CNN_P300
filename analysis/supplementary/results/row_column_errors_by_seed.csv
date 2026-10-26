@@ -1,0 +1,13 @@
+﻿subject,variant,seed,correct,row_only,column_only,both_row_and_column
+A,none,42,95,2,3,0
+A,none,123,97,2,1,0
+A,none,2026,94,3,3,0
+A,full,42,92,5,3,0
+A,full,123,95,4,1,0
+A,full,2026,94,5,1,0
+B,none,42,98,0,1,1
+B,none,123,98,1,0,1
+B,none,2026,99,0,0,1
+B,full,42,97,1,2,0
+B,full,123,99,0,0,1
+B,full,2026,99,0,0,1

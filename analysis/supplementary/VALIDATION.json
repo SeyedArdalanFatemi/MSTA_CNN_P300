@@ -1,0 +1,12 @@
+{
+  "source_prediction_hashes": "12/12 passed",
+  "redecoded_character_records": "18000/18000 matched (12 models x 100 characters x 15 repetitions)",
+  "recomputed_existing_binary_metrics": "12/12 matched both original and primary reference",
+  "wilson_boundary_symmetry_tests": "passed",
+  "paired_known_counts_test": "passed",
+  "majority_baseline_test": "passed",
+  "final_paired_accounting": "6/6 passed",
+  "source_models_and_thresholds_changed": false,
+  "new_training_or_inference": false,
+  "new_metrics_are_descriptive": true
+}

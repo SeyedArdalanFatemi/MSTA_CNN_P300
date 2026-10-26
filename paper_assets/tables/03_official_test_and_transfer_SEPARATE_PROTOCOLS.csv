@@ -1,0 +1,9 @@
+﻿protocol,source,target,variant,seeds,correct_out_of_100,accuracy15_mean_percent,seed_sample_sd_pp,mean_accuracy_1_to_15_percent
+primary_official_test,A,A,none,"[42, 123, 2026]","[95, 97, 94]",95.33333333333333,1.5275252316519468,69.88888888888889
+primary_official_test,A,A,full,"[42, 123, 2026]","[92, 95, 94]",93.66666666666667,1.5275252316519468,71.04444444444445
+primary_official_test,B,B,none,"[42, 123, 2026]","[98, 98, 99]",98.33333333333333,0.5773502691896257,84.77777777777777
+primary_official_test,B,B,full,"[42, 123, 2026]","[97, 99, 99]",98.33333333333333,1.1547005383792517,84.31111111111109
+cross_subject_separate_recipe,A,B,none,"[42, 123, 2026]","[28, 35, 24]",29.0,5.5677643628300215,18.91111111111111
+cross_subject_separate_recipe,A,B,full,"[42, 123, 2026]","[27, 30, 27]",28.0,1.7320508075688772,17.622222222222224
+cross_subject_separate_recipe,B,A,none,"[42, 123, 2026]","[21, 20, 22]",21.0,1.0,17.155555555555555
+cross_subject_separate_recipe,B,A,full,"[42, 123, 2026]","[21, 22, 20]",21.0,1.0,18.333333333333332

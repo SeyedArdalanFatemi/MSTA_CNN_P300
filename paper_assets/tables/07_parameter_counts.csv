@@ -1,0 +1,5 @@
+﻿variant,total_parameters,trainable_parameters,nontrainable_parameters
+none,2001,1921,80
+channel,2129,2049,80
+temporal,3057,2977,80
+full,3185,3105,80

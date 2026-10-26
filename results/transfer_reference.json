@@ -1,0 +1,1446 @@
+{
+  "origin_summary_sha256": "455c06ef96e1c8873a153d8c40d5e7c27e135d01eba2cff52b203a488174f81f",
+  "jobs": [
+    {
+      "source": "A",
+      "target": "B",
+      "variant": "none",
+      "seed": 42,
+      "checkpoint_sha256": "9cbda4000bca59bc1b89f4be1455b612f1fed48c99df7c4fd5c489dc6c875309",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 4,
+          "characters": 100,
+          "accuracy": 0.04
+        },
+        {
+          "sequences": 2,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 3,
+          "correct": 8,
+          "characters": 100,
+          "accuracy": 0.08
+        },
+        {
+          "sequences": 4,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 5,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 6,
+          "correct": 13,
+          "characters": 100,
+          "accuracy": 0.13
+        },
+        {
+          "sequences": 7,
+          "correct": 18,
+          "characters": 100,
+          "accuracy": 0.18
+        },
+        {
+          "sequences": 8,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 9,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 10,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 11,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 12,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 13,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 14,
+          "correct": 26,
+          "characters": 100,
+          "accuracy": 0.26
+        },
+        {
+          "sequences": 15,
+          "correct": 28,
+          "characters": 100,
+          "accuracy": 0.28
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5934571,
+        "average_precision": 0.22595018805466177,
+        "accuracy": 0.8213333333333334,
+        "target_precision": 0.30985915492957744,
+        "target_recall": 0.058666666666666666,
+        "target_f1": 0.09865470852017937,
+        "unweighted_bce": 0.4807088229223403,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            14608,
+            392
+          ],
+          [
+            2824,
+            176
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "A",
+      "target": "B",
+      "variant": "none",
+      "seed": 123,
+      "checkpoint_sha256": "5607c36629d87ff9fddc4db415e6a6d6eef52dce36b7967d463a51d66a18f350",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 2,
+          "characters": 100,
+          "accuracy": 0.02
+        },
+        {
+          "sequences": 2,
+          "correct": 7,
+          "characters": 100,
+          "accuracy": 0.07
+        },
+        {
+          "sequences": 3,
+          "correct": 6,
+          "characters": 100,
+          "accuracy": 0.06
+        },
+        {
+          "sequences": 4,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 5,
+          "correct": 18,
+          "characters": 100,
+          "accuracy": 0.18
+        },
+        {
+          "sequences": 6,
+          "correct": 18,
+          "characters": 100,
+          "accuracy": 0.18
+        },
+        {
+          "sequences": 7,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 8,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 9,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 10,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 11,
+          "correct": 29,
+          "characters": 100,
+          "accuracy": 0.29
+        },
+        {
+          "sequences": 12,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 13,
+          "correct": 32,
+          "characters": 100,
+          "accuracy": 0.32
+        },
+        {
+          "sequences": 14,
+          "correct": 33,
+          "characters": 100,
+          "accuracy": 0.33
+        },
+        {
+          "sequences": 15,
+          "correct": 35,
+          "characters": 100,
+          "accuracy": 0.35
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.6079198,
+        "average_precision": 0.2357360277192183,
+        "accuracy": 0.8229444444444445,
+        "target_precision": 0.3258845437616387,
+        "target_recall": 0.058333333333333334,
+        "target_f1": 0.09895391574780887,
+        "unweighted_bce": 0.4737279123092832,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            14638,
+            362
+          ],
+          [
+            2825,
+            175
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "A",
+      "target": "B",
+      "variant": "none",
+      "seed": 2026,
+      "checkpoint_sha256": "568a500e502cfb4e3086682fd472c2550c39fde683d6a63c50fa40a4e0bb200f",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 4,
+          "characters": 100,
+          "accuracy": 0.04
+        },
+        {
+          "sequences": 2,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 3,
+          "correct": 11,
+          "characters": 100,
+          "accuracy": 0.11
+        },
+        {
+          "sequences": 4,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 5,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 6,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 7,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 8,
+          "correct": 18,
+          "characters": 100,
+          "accuracy": 0.18
+        },
+        {
+          "sequences": 9,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 10,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 11,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 12,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 13,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 14,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 15,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5999604777777777,
+        "average_precision": 0.23198128165629167,
+        "accuracy": 0.8252222222222222,
+        "target_precision": 0.33705357142857145,
+        "target_recall": 0.050333333333333334,
+        "target_f1": 0.08758700696055685,
+        "unweighted_bce": 0.4776734518095709,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            14703,
+            297
+          ],
+          [
+            2849,
+            151
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "A",
+      "target": "B",
+      "variant": "full",
+      "seed": 42,
+      "checkpoint_sha256": "d31dccdfd38720ac9715ad93218c029a8278a8070c57a1481944d5666bc5d14a",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 2,
+          "characters": 100,
+          "accuracy": 0.02
+        },
+        {
+          "sequences": 2,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 3,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 4,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 5,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 6,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 7,
+          "correct": 17,
+          "characters": 100,
+          "accuracy": 0.17
+        },
+        {
+          "sequences": 8,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 9,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 10,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 11,
+          "correct": 26,
+          "characters": 100,
+          "accuracy": 0.26
+        },
+        {
+          "sequences": 12,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 13,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 14,
+          "correct": 28,
+          "characters": 100,
+          "accuracy": 0.28
+        },
+        {
+          "sequences": 15,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5981136222222223,
+        "average_precision": 0.22786478848898337,
+        "accuracy": 0.8161111111111111,
+        "target_precision": 0.2981770833333333,
+        "target_recall": 0.07633333333333334,
+        "target_f1": 0.12154989384288747,
+        "unweighted_bce": 0.48435660570628714,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            14461,
+            539
+          ],
+          [
+            2771,
+            229
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "A",
+      "target": "B",
+      "variant": "full",
+      "seed": 123,
+      "checkpoint_sha256": "00e74ba79f1bbf70ab18b4b12c2143aefc154ddc332f7c01f47b0b1b55e883b7",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 4,
+          "characters": 100,
+          "accuracy": 0.04
+        },
+        {
+          "sequences": 2,
+          "correct": 8,
+          "characters": 100,
+          "accuracy": 0.08
+        },
+        {
+          "sequences": 3,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 4,
+          "correct": 10,
+          "characters": 100,
+          "accuracy": 0.1
+        },
+        {
+          "sequences": 5,
+          "correct": 15,
+          "characters": 100,
+          "accuracy": 0.15
+        },
+        {
+          "sequences": 6,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 7,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 8,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 9,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 10,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 11,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 12,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 13,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 14,
+          "correct": 26,
+          "characters": 100,
+          "accuracy": 0.26
+        },
+        {
+          "sequences": 15,
+          "correct": 30,
+          "characters": 100,
+          "accuracy": 0.3
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5933946999999999,
+        "average_precision": 0.22080322330278346,
+        "accuracy": 0.8178333333333333,
+        "target_precision": 0.2803149606299213,
+        "target_recall": 0.059333333333333335,
+        "target_f1": 0.09793672627235213,
+        "unweighted_bce": 0.4849280542890176,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            14543,
+            457
+          ],
+          [
+            2822,
+            178
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "A",
+      "target": "B",
+      "variant": "full",
+      "seed": 2026,
+      "checkpoint_sha256": "ec68e8f09fbc15c2eda7837cd68af1a4196f4408654d148afa06203daf2596a6",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 4,
+          "characters": 100,
+          "accuracy": 0.04
+        },
+        {
+          "sequences": 2,
+          "correct": 7,
+          "characters": 100,
+          "accuracy": 0.07
+        },
+        {
+          "sequences": 3,
+          "correct": 8,
+          "characters": 100,
+          "accuracy": 0.08
+        },
+        {
+          "sequences": 4,
+          "correct": 6,
+          "characters": 100,
+          "accuracy": 0.06
+        },
+        {
+          "sequences": 5,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 6,
+          "correct": 17,
+          "characters": 100,
+          "accuracy": 0.17
+        },
+        {
+          "sequences": 7,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 8,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 9,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 10,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 11,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 12,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 13,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 14,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 15,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5905886777777778,
+        "average_precision": 0.22042093676412233,
+        "accuracy": 0.8116666666666666,
+        "target_precision": 0.2768878718535469,
+        "target_recall": 0.08066666666666666,
+        "target_f1": 0.12493546721734641,
+        "unweighted_bce": 0.4928997280848659,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            14368,
+            632
+          ],
+          [
+            2758,
+            242
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "B",
+      "target": "A",
+      "variant": "none",
+      "seed": 42,
+      "checkpoint_sha256": "51ef636177bbbec9e66c5e6fb59f720b0b3589bf1a690c2467d9159f9148a663",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 2,
+          "correct": 10,
+          "characters": 100,
+          "accuracy": 0.1
+        },
+        {
+          "sequences": 3,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 4,
+          "correct": 10,
+          "characters": 100,
+          "accuracy": 0.1
+        },
+        {
+          "sequences": 5,
+          "correct": 13,
+          "characters": 100,
+          "accuracy": 0.13
+        },
+        {
+          "sequences": 6,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 7,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 8,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 9,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 10,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 11,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 12,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 13,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 14,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 15,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5846603666666667,
+        "average_precision": 0.21092526287644053,
+        "accuracy": 0.7853333333333333,
+        "target_precision": 0.24528301886792453,
+        "target_recall": 0.13866666666666666,
+        "target_f1": 0.17717206132879046,
+        "unweighted_bce": 0.5899519931731675,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            13720,
+            1280
+          ],
+          [
+            2584,
+            416
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "B",
+      "target": "A",
+      "variant": "none",
+      "seed": 123,
+      "checkpoint_sha256": "a4f63782dab00b23267263e4da1eede66c620209cc9801997b67c4586c65e77f",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 6,
+          "characters": 100,
+          "accuracy": 0.06
+        },
+        {
+          "sequences": 2,
+          "correct": 8,
+          "characters": 100,
+          "accuracy": 0.08
+        },
+        {
+          "sequences": 3,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 4,
+          "correct": 8,
+          "characters": 100,
+          "accuracy": 0.08
+        },
+        {
+          "sequences": 5,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 6,
+          "correct": 15,
+          "characters": 100,
+          "accuracy": 0.15
+        },
+        {
+          "sequences": 7,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 8,
+          "correct": 17,
+          "characters": 100,
+          "accuracy": 0.17
+        },
+        {
+          "sequences": 9,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 10,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 11,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 12,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 13,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 14,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 15,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5881453222222223,
+        "average_precision": 0.2144779222268382,
+        "accuracy": 0.7839444444444444,
+        "target_precision": 0.2523676880222841,
+        "target_recall": 0.151,
+        "target_f1": 0.18894681960375392,
+        "unweighted_bce": 0.5956178416024461,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            13658,
+            1342
+          ],
+          [
+            2547,
+            453
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "B",
+      "target": "A",
+      "variant": "none",
+      "seed": 2026,
+      "checkpoint_sha256": "48aa33019a9617083c35c5e1f9763e62cf95ad1645c3aa252eb5fc3d3e50a3d1",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 10,
+          "characters": 100,
+          "accuracy": 0.1
+        },
+        {
+          "sequences": 2,
+          "correct": 7,
+          "characters": 100,
+          "accuracy": 0.07
+        },
+        {
+          "sequences": 3,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 4,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 5,
+          "correct": 11,
+          "characters": 100,
+          "accuracy": 0.11
+        },
+        {
+          "sequences": 6,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 7,
+          "correct": 15,
+          "characters": 100,
+          "accuracy": 0.15
+        },
+        {
+          "sequences": 8,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 9,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 10,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 11,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 12,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 13,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 14,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 15,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5833177444444445,
+        "average_precision": 0.21106375020064305,
+        "accuracy": 0.7899444444444444,
+        "target_precision": 0.25111536010197577,
+        "target_recall": 0.13133333333333333,
+        "target_f1": 0.17246662289341214,
+        "unweighted_bce": 0.590601543812424,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            13825,
+            1175
+          ],
+          [
+            2606,
+            394
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "B",
+      "target": "A",
+      "variant": "full",
+      "seed": 42,
+      "checkpoint_sha256": "b0295ace6d6a1f7e450b602877df3b21e6803012ab92b35ce52bea2a7f8412a3",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 6,
+          "characters": 100,
+          "accuracy": 0.06
+        },
+        {
+          "sequences": 2,
+          "correct": 9,
+          "characters": 100,
+          "accuracy": 0.09
+        },
+        {
+          "sequences": 3,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 4,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 5,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 6,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 7,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 8,
+          "correct": 17,
+          "characters": 100,
+          "accuracy": 0.17
+        },
+        {
+          "sequences": 9,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 10,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 11,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 12,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 13,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 14,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 15,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5902097777777777,
+        "average_precision": 0.2147193845922233,
+        "accuracy": 0.7795,
+        "target_precision": 0.25293217746047936,
+        "target_recall": 0.16533333333333333,
+        "target_f1": 0.1999596855472687,
+        "unweighted_bce": 0.6014188994566966,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            13535,
+            1465
+          ],
+          [
+            2504,
+            496
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "B",
+      "target": "A",
+      "variant": "full",
+      "seed": 123,
+      "checkpoint_sha256": "c74125ac53af1bf98d6a3058ff382121ffdb41382ae3f5bc41763b52764bb96c",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 11,
+          "characters": 100,
+          "accuracy": 0.11
+        },
+        {
+          "sequences": 2,
+          "correct": 8,
+          "characters": 100,
+          "accuracy": 0.08
+        },
+        {
+          "sequences": 3,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 4,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 5,
+          "correct": 15,
+          "characters": 100,
+          "accuracy": 0.15
+        },
+        {
+          "sequences": 6,
+          "correct": 18,
+          "characters": 100,
+          "accuracy": 0.18
+        },
+        {
+          "sequences": 7,
+          "correct": 15,
+          "characters": 100,
+          "accuracy": 0.15
+        },
+        {
+          "sequences": 8,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 9,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 10,
+          "correct": 21,
+          "characters": 100,
+          "accuracy": 0.21
+        },
+        {
+          "sequences": 11,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 12,
+          "correct": 25,
+          "characters": 100,
+          "accuracy": 0.25
+        },
+        {
+          "sequences": 13,
+          "correct": 23,
+          "characters": 100,
+          "accuracy": 0.23
+        },
+        {
+          "sequences": 14,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        },
+        {
+          "sequences": 15,
+          "correct": 22,
+          "characters": 100,
+          "accuracy": 0.22
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5920722555555555,
+        "average_precision": 0.21485400555969203,
+        "accuracy": 0.7843888888888889,
+        "target_precision": 0.24522845575477153,
+        "target_recall": 0.14133333333333334,
+        "target_f1": 0.1793190949460774,
+        "unweighted_bce": 0.6052415017005176,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            13695,
+            1305
+          ],
+          [
+            2576,
+            424
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    },
+    {
+      "source": "B",
+      "target": "A",
+      "variant": "full",
+      "seed": 2026,
+      "checkpoint_sha256": "72c2cbda409b4af558b9c05af129bb1ee69fce2f35f3776f03a6f8af70a68773",
+      "character_curve": [
+        {
+          "sequences": 1,
+          "correct": 13,
+          "characters": 100,
+          "accuracy": 0.13
+        },
+        {
+          "sequences": 2,
+          "correct": 12,
+          "characters": 100,
+          "accuracy": 0.12
+        },
+        {
+          "sequences": 3,
+          "correct": 16,
+          "characters": 100,
+          "accuracy": 0.16
+        },
+        {
+          "sequences": 4,
+          "correct": 11,
+          "characters": 100,
+          "accuracy": 0.11
+        },
+        {
+          "sequences": 5,
+          "correct": 14,
+          "characters": 100,
+          "accuracy": 0.14
+        },
+        {
+          "sequences": 6,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 7,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        },
+        {
+          "sequences": 8,
+          "correct": 19,
+          "characters": 100,
+          "accuracy": 0.19
+        },
+        {
+          "sequences": 9,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 10,
+          "correct": 26,
+          "characters": 100,
+          "accuracy": 0.26
+        },
+        {
+          "sequences": 11,
+          "correct": 29,
+          "characters": 100,
+          "accuracy": 0.29
+        },
+        {
+          "sequences": 12,
+          "correct": 27,
+          "characters": 100,
+          "accuracy": 0.27
+        },
+        {
+          "sequences": 13,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 14,
+          "correct": 24,
+          "characters": 100,
+          "accuracy": 0.24
+        },
+        {
+          "sequences": 15,
+          "correct": 20,
+          "characters": 100,
+          "accuracy": 0.2
+        }
+      ],
+      "binary": {
+        "threshold": 0.5,
+        "roc_auc": 0.5923160888888889,
+        "average_precision": 0.2174926223540517,
+        "accuracy": 0.7897777777777778,
+        "target_precision": 0.25283732660781844,
+        "target_recall": 0.13366666666666666,
+        "target_f1": 0.17488006977758394,
+        "unweighted_bce": 0.5834941673681528,
+        "confusion_matrix_rows_true_cols_pred_0_1": [
+          [
+            13815,
+            1185
+          ],
+          [
+            2599,
+            401
+          ]
+        ],
+        "always_nontarget_accuracy": 0.8333333333333334
+      }
+    }
+  ],
+  "status": "Historical reference; consolidated full training not rerun"
+}

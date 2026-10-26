@@ -1,0 +1,6 @@
+﻿quantity,calculation,value,unit,limit
+Nominal first temporal kernel duration,32 / 64,0.5,seconds,Not proof of P300 selectivity; excludes later receptive-field expansion
+Attention-grid temporal stride,4 * 4 / 64,0.25,seconds,Not 0.8/3; receptive fields overlap and use padding
+Input samples,stored preprocessing output,52,samples,Last center at 51/64 seconds
+Spatial kernel height,"Depthwise kernel 64 x 1, multiplier 2",64,electrodes,Learned spatial combinations; not direct electrode-importance scores
+Attention feature channels,8 temporal filters * depth multiplier 2,16,feature maps,Different from 64 acquisition electrodes

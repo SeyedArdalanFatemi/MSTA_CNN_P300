@@ -1,0 +1,7 @@
+﻿subject,seed,repetitions,both_correct,both_wrong,corrected_by_attention,new_errors_with_attention,attention_minus_none_pp
+A,42,15,91,4,1,4,-3.0
+A,123,15,93,1,2,4,-2.0
+A,2026,15,91,3,3,3,0.0
+B,42,15,97,2,0,1,-1.0
+B,123,15,98,1,1,0,1.0
+B,2026,15,99,1,0,0,0.0

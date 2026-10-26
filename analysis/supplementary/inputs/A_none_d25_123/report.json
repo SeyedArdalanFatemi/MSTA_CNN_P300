@@ -1,0 +1,274 @@
+{
+  "task": {
+    "subject": "A",
+    "variant": "none",
+    "dropout_rate": 0.25,
+    "epochs": 34,
+    "learning_rate_by_epoch": [
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0010000000474974513,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0005000000237487257,
+      0.0002500000118743628,
+      0.0002500000118743628
+    ],
+    "cv_best_epochs": [
+      35,
+      37,
+      52,
+      20,
+      32,
+      22,
+      35,
+      42,
+      32,
+      34,
+      22,
+      34,
+      26,
+      34,
+      29
+    ],
+    "source_histories": 15,
+    "source_histories_extended_at_end": 0,
+    "cv_provenance": [
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\42_A_none_1\\training_report.json",
+        "sha256": "7c9098f2a6c777563cdaadc7a791266fc1a955fd7a62c429c467796f168c317f",
+        "seed": 42,
+        "fold": 1
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\42_A_none_2\\training_report.json",
+        "sha256": "ed6a0c3d64e5e25cc7f6ff113bed2b40c1c150855d787bc44dd98e7855246f1c",
+        "seed": 42,
+        "fold": 2
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\42_A_none_3\\training_report.json",
+        "sha256": "14ed84fd75b8bd8410abbeaf9102cbeeb1161ebcad2fc0fe58ec3963bc70c557",
+        "seed": 42,
+        "fold": 3
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\42_A_none_4\\training_report.json",
+        "sha256": "603151107990d714a7a0947f541832c8a241ddcadc6cddf6a81ce629b4ecbbf4",
+        "seed": 42,
+        "fold": 4
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\42_A_none_5\\training_report.json",
+        "sha256": "2ab943e03ad07ff3696e7a85f0209cf247ba08dc369cf615faba6056b23efb5f",
+        "seed": 42,
+        "fold": 5
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\123_A_none_1\\training_report.json",
+        "sha256": "882381a685965fec2e577fd994cfd4f5dbdb06bc8bbbac629d6936aaf555acb8",
+        "seed": 123,
+        "fold": 1
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\123_A_none_2\\training_report.json",
+        "sha256": "35bd59541956ce4e02afdd978359c312aa8a6ce65ea2ca7f790eac4db14b208c",
+        "seed": 123,
+        "fold": 2
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\123_A_none_3\\training_report.json",
+        "sha256": "3400047dfeb140f0cef10ce5b9074757613b6f52af43e9afba36a89499eeabbb",
+        "seed": 123,
+        "fold": 3
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\123_A_none_4\\training_report.json",
+        "sha256": "e98dbb883e1405c097bd33ee5d2eb491fd2877e0ab2eb006987c178b7c37c7a9",
+        "seed": 123,
+        "fold": 4
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\123_A_none_5\\training_report.json",
+        "sha256": "3e52cb41bdfad7df29427fe6090e419b2d13e127944eb850c68260d04b50182e",
+        "seed": 123,
+        "fold": 5
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\2026_A_none_1\\training_report.json",
+        "sha256": "e8dd345541a8c1bcc22111b656f14ad7ed1e7397b94bb4bc2efd1d36b72aa0ae",
+        "seed": 2026,
+        "fold": 1
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\2026_A_none_2\\training_report.json",
+        "sha256": "a78333fbb9b31f93aff2d9545403b100cf65c404bcd8948efd10dbe67c93370a",
+        "seed": 2026,
+        "fold": 2
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\2026_A_none_3\\training_report.json",
+        "sha256": "95758dfd6fda493ee077fdec7efcbbc1e1858fc16c672cb16d3cb5119defbb0c",
+        "seed": 2026,
+        "fold": 3
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\2026_A_none_4\\training_report.json",
+        "sha256": "6dc944a491552bf33274c1f98d5360e92b92a64b0721a1f3068c6469454d50b9",
+        "seed": 2026,
+        "fold": 4
+      },
+      {
+        "path": "X:\\Thesis_Fatemi\\m.file & dataset\\20 do_EL_ELM 2004\\P300_CNN_ELM\\MSTA_CNN_Speller\\MSTA_step24_outputs\\20261018T002517_665801Z\\2026_A_none_5\\training_report.json",
+        "sha256": "dfbea3e825befeef78ecca46947efbe5cf600464e6348bef5417dfdc18a526d3",
+        "seed": 2026,
+        "fold": 5
+      }
+    ],
+    "seed": 123,
+    "key": "A_none_d25_123",
+    "model_relative_path": "models/A_none_d25_123/final.keras"
+  },
+  "checkpoint_sha256": "15d8219cefdf761e56a9de8d70c5d3bec9acd7a67ba96b53182da172c35f4f33",
+  "predictions_sha256": "39408e6d4ecd1efe1269bc5a85b35c4a0761e48bdc379ece883795f1157206d0",
+  "reload_probe_max_difference": 0.0,
+  "binary": {
+    "threshold": 0.5,
+    "roc_auc": 0.7789813333333333,
+    "average_precision": 0.455905944933753,
+    "accuracy": 0.8466111111111111,
+    "target_precision": 0.6394399066511085,
+    "target_recall": 0.18266666666666667,
+    "target_f1": 0.2841586725434275,
+    "unweighted_bce": 0.3752677697698865,
+    "confusion_matrix_rows_true_cols_pred_0_1": [
+      [
+        14691,
+        309
+      ],
+      [
+        2452,
+        548
+      ]
+    ],
+    "always_nontarget_accuracy": 0.8333333333333334
+  },
+  "character_curve": [
+    {
+      "sequences": 1,
+      "correct": 22,
+      "characters": 100,
+      "accuracy": 0.22
+    },
+    {
+      "sequences": 2,
+      "correct": 29,
+      "characters": 100,
+      "accuracy": 0.29
+    },
+    {
+      "sequences": 3,
+      "correct": 48,
+      "characters": 100,
+      "accuracy": 0.48
+    },
+    {
+      "sequences": 4,
+      "correct": 52,
+      "characters": 100,
+      "accuracy": 0.52
+    },
+    {
+      "sequences": 5,
+      "correct": 61,
+      "characters": 100,
+      "accuracy": 0.61
+    },
+    {
+      "sequences": 6,
+      "correct": 62,
+      "characters": 100,
+      "accuracy": 0.62
+    },
+    {
+      "sequences": 7,
+      "correct": 73,
+      "characters": 100,
+      "accuracy": 0.73
+    },
+    {
+      "sequences": 8,
+      "correct": 74,
+      "characters": 100,
+      "accuracy": 0.74
+    },
+    {
+      "sequences": 9,
+      "correct": 76,
+      "characters": 100,
+      "accuracy": 0.76
+    },
+    {
+      "sequences": 10,
+      "correct": 87,
+      "characters": 100,
+      "accuracy": 0.87
+    },
+    {
+      "sequences": 11,
+      "correct": 88,
+      "characters": 100,
+      "accuracy": 0.88
+    },
+    {
+      "sequences": 12,
+      "correct": 89,
+      "characters": 100,
+      "accuracy": 0.89
+    },
+    {
+      "sequences": 13,
+      "correct": 89,
+      "characters": 100,
+      "accuracy": 0.89
+    },
+    {
+      "sequences": 14,
+      "correct": 91,
+      "characters": 100,
+      "accuracy": 0.91
+    },
+    {
+      "sequences": 15,
+      "correct": 97,
+      "characters": 100,
+      "accuracy": 0.97
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿subject,variant,seed,repetitions,correct,characters,accuracy_percent,wilson95_low_percent,wilson95_high_percent,assumption
+A,none,42,15,95,100,95,88.82495307680807,97.84563208456319,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+A,none,123,15,97,100,97,91.54806357094724,98.97454759759611,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+A,none,2026,15,94,100,94,87.52318455410406,97.22138760368118,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+A,full,42,15,92,100,92,85.00189229905128,95.89065385156194,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+A,full,123,15,95,100,95,88.82495307680807,97.84563208456319,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+A,full,2026,15,94,100,94,87.52318455410406,97.22138760368118,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+B,none,42,15,98,100,98,92.9988209271456,99.44980324498376,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+B,none,123,15,98,100,98,92.9988209271456,99.44980324498376,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+B,none,2026,15,99,100,99,94.55138038212947,99.82325679358593,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+B,full,42,15,97,100,97,91.54806357094724,98.97454759759611,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+B,full,123,15,99,100,99,94.55138038212947,99.82325679358593,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects
+B,full,2026,15,99,100,99,94.55138038212947,99.82325679358593,Nominal binomial interval within this fixed model/subject; not a CI across seeds or subjects

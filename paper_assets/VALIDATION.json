@@ -1,0 +1,16 @@
+{
+  "tables": 7,
+  "figures": 4,
+  "formats": [
+    "svg",
+    "pdf",
+    "png"
+  ],
+  "primary_and_transfer_summary_checks": "passed",
+  "source_reports": "previously audited, frozen copies included",
+  "visual_inspection": "all four figures inspected; architecture connector adjusted to avoid label overlap",
+  "training_performed": false,
+  "test_inference_rerun": false,
+  "competition_ii_retested": false,
+  "tensorflow_warning_patch": "provided for future integration; not TensorFlow-tested here"
+}

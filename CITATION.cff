@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated article when published."
+title: "MSTA-CNN reproducibility package"
+type: software
+authors:
+  - family-names: "Fatemi"
+    given-names: "S. Ardalan"
+version: "2.0.2"
+date-released: "2026-10-24"
+abstract: "Offline P300 classification, matched attention ablation, and reproducibility analyses."
+license: MIT

@@ -1,0 +1,7 @@
+﻿level,baseline,metric,value
+character,Uniform independent row and column choice,accuracy,0.027777777777777776
+flash,Always non-target,accuracy,0.8333333333333334
+flash,Always non-target,balanced_accuracy,0.5
+flash,Always non-target; sklearn zero-denominator convention,MCC,0
+flash,Constant score for every flash,ROC-AUC,0.5
+flash,Constant score; prevalence reference,AP,0.16666666666666666

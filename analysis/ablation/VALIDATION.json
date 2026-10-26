@@ -1,0 +1,12 @@
+{
+  "syntax": "passed",
+  "core_data_self_test": "passed",
+  "aggregation_known_counts": "passed",
+  "missing_duplicate_rejection": "passed",
+  "real_reference_aggregate_recovery": "passed",
+  "summary_only_reference_rejected": "passed",
+  "review_export_excludes_cache": "passed",
+  "unchanged_core_sha256": "1432f8727ae90f15ceaf45665406b69a921175dc000cd00d8e4246f81ee8b1e1",
+  "tensorflow_training": "NOT RUN here; TensorFlow unavailable",
+  "note": "Synthetic channel/temporal entries were used only for aggregation tests; no scientific results were generated."
+}

@@ -1,0 +1,11 @@
+{
+  "sampling_and_silhouette_selftest": "passed",
+  "actual_synthetic_tsne_1200x48": "passed",
+  "plot_png_svg": "generated",
+  "aggregation_known_effect": "passed",
+  "zip_export": "passed",
+  "core_identical": true,
+  "tensorflow_inference": "NOT RUN: unavailable locally",
+  "scientific_results": "NONE generated; all tests synthetic",
+  "synthetic_plot_visual_check": "passed"
+}
